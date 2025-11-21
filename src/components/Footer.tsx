@@ -1,5 +1,4 @@
 import {
-  Sun,
   Mail,
   Phone,
   MapPin,
@@ -21,13 +20,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-2 rounded-lg">
-                <Sun className="h-8 w-8 text-white" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold">{t("companyName")}</h3>
-                <p className="text-sm text-gray-400">{t("tagline")}</p>
-              </div>
+              <img
+                src="/assets/logos.png"
+                alt="RenewRay Logo"
+                className="h-12 w-auto object-contain"
+              />
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               India's trusted solar EPC company, delivering sustainable energy

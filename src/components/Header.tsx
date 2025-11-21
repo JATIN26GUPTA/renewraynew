@@ -34,7 +34,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 p-2 rounded-lg">
               <Sun className="h-8 w-8 text-white" />
             </div>
@@ -44,6 +44,17 @@ export default function Header() {
               </h1>
               <p className="text-xs text-gray-600">{t("tagline")}</p>
             </div>
+          </div> */}
+
+          <div
+            className="flex items-center space-x-2 cursor-pointer"
+            onClick={() => handleNavClick("#home")}
+          >
+            <img
+              src="/assets/logos.png"
+              alt="RenewRay Logo"
+              className="h-14 w-auto object-contain"
+            />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
