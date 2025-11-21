@@ -146,9 +146,9 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-yellow-400 flex-shrink-0 mt-1" />
                 <span className="text-gray-300">
-                  Industrial Area, Kota
+                  RenewRay Energy Solutions Pvt. Ltd. 2-H-1,vigyan nagar, kota,
                   <br />
-                  Rajasthan - 324001, India
+                  Rajasthan - 324005, India
                 </span>
               </li>
               <li className="flex items-center space-x-3">

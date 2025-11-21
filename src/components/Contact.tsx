@@ -120,9 +120,10 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">{t("address")}</h4>
                     <p className="text-blue-100">
-                      Industrial Area, Kota
+                      RenewRay Energy Solutions Pvt. Ltd. 2-H-1, vigyan nagar,
+                      kota,
                       <br />
-                      Rajasthan - 324001, India
+                      Rajasthan - 324005, India
                     </p>
                   </div>
                 </div>
